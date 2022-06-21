@@ -1,0 +1,11 @@
+﻿int a = 120;
+int b = 50;
+int c = 70;
+int d = 90; 
+int e = 110;
+int max = a;
+if(b>max) max = b;
+if(c>max) max = c;
+if(d>max) max = d;
+if(e>max) max = e;
+Console.WriteLine(max);
