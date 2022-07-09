@@ -10,7 +10,7 @@ int GetNumber()
 {
     int result = 0;
     string error = "error";
-    Console.WriteLine("Print number");
+    Console.WriteLine("Print number:");
 
     while (true)
     {
@@ -27,7 +27,6 @@ int GetNumber()
     }
     return result;
 }
-
 void SymNumber(int number)
 {
     int result = 1;
@@ -35,9 +34,9 @@ void SymNumber(int number)
     {
         result = result * i;
     }
-    Console.WriteLine(result);
+     Console.WriteLine(result);
 }
 //Основной код
-int digit = GetNumber("Введите число:");
+int digit = GetNumber();
 SymNumber(digit);
 
